@@ -86,7 +86,6 @@ sudo ./rploader.sh fullupgrade now
 ```
 ./rploader.sh identifyusb now
 ```
-1. 先删除在替换 脚本下的 modules.alias.3 modules.alias.4 rpext-index global_config custom_config
 
 1. 然后编译对应的架构和版本 我的架构是V1000版本用最新的7.1.0-42661
 ```
