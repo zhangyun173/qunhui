@@ -90,11 +90,11 @@ sudo ./rploader.sh fullupgrade now
 
 1. 然后编译对应的架构和版本 我的架构是V1000版本用最新的7.1.0-42661
 ```
-sudo ./rploader.sh build v1000-7.1.0-42661
+sudo ./rploader.sh build ds1621p_42661
 ```
 编译过程中如果遇到查找驱动失败的 手动添加的方法是
 ```
-sudo ./rploader.sh ext v1000-7.1.0-42661 add https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/rpext-index.json
+sudo ./rploader.sh ext ds1621p_42661 add https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/rpext-index.json
 ```
 然后再重新编译
 
